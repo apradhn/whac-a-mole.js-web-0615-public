@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+	<testsuite tests="4" errors="0" failures="1" time="6.132" timestamp="2015-07-20T13:52:52">
+		<testcase classname="Game:" name="randomInt() accepts two values, a min and a max, and returns a random number" time="0.004">
+		</testcase>
+		<testcase classname="Game:" name="selectMole() hides a visible mole" time="1.072">
+		</testcase>
+		<testcase classname="Game:" name="selectMole() shows a new mole" time="1.014">
+		</testcase>
+		<testcase classname="Game:" name="selectMole() doesn&amp;apos;t select the same hole two times in a row" time="4.038">
+			<failure type="toEqual" message="Expected &amp;apos;mole-num-6&amp;apos; not to equal &amp;apos;mole-num-6&amp;apos;.">
+	at stack (file:///Users/abhijitpradhan/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1293:37)
+	at buildExpectationResult (file:///Users/abhijitpradhan/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1270:19)
+	at expectationResultFactory (file:///Users/abhijitpradhan/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:484:40)
+	at addExpectationResult (file:///Users/abhijitpradhan/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:260:70)
+	at addExpectationResult (file:///Users/abhijitpradhan/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:442:41)
+	at file:///Users/abhijitpradhan/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1209:32
+	at storeNextPosition (file:///Users/abhijitpradhan/Development/whac-a-mole.js-web-0615/spec/index.spec.js:46:37)			</failure>
+			<failure type="toEqual" message="Expected &amp;apos;mole-num-6&amp;apos; not to equal &amp;apos;mole-num-6&amp;apos;.">
+	at stack (file:///Users/abhijitpradhan/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1293:37)
+	at buildExpectationResult (file:///Users/abhijitpradhan/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1270:19)
+	at expectationResultFactory (file:///Users/abhijitpradhan/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:484:40)
+	at addExpectationResult (file:///Users/abhijitpradhan/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:260:70)
+	at addExpectationResult (file:///Users/abhijitpradhan/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:442:41)
+	at file:///Users/abhijitpradhan/.rvm/gems/ruby-2.2.1/gems/learn-test-1.2.23/lib/learn_test/jasmine/jasmine.js:1209:32
+	at storeNextPosition (file:///Users/abhijitpradhan/Development/whac-a-mole.js-web-0615/spec/index.spec.js:46:37)			</failure>
+		</testcase>
+	</testsuite>
+</testsuites>
+
